@@ -131,7 +131,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="÷"/>
                                 <connections>
-                                    <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8nq-UZ-Ub8"/>
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H0I-Mz-NAw"/>
                                 </connections>
                             </button>
@@ -148,31 +147,20 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="−"/>
                                 <connections>
-                                    <action selector="enter" destination="BYZ-38-t0r" eventType="touchUpInside" id="D8J-lj-p6G"/>
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W3v-7Q-W9Q"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7H-xq-i8M">
                                 <rect key="frame" x="481.5" y="96" width="110.5" height="118"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <connections>
-                                    <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aWN-4R-ARp"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VXO-aU-cOV">
                                 <rect key="frame" x="481.5" y="222" width="110.5" height="118"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <connections>
-                                    <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eSM-Zh-mKN"/>
-                                    <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MR3-kQ-N0t"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vW-XP-xFH">
                                 <rect key="frame" x="481.5" y="348" width="110.5" height="118"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <connections>
-                                    <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zns-de-k9w"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ze-I4-qoO">
                                 <rect key="frame" x="481.5" y="474" width="110.5" height="118"/>

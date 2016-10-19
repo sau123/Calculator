@@ -8,6 +8,14 @@
 
 import UIKit
 
+/*
+ To function the calculator: 
+ press 5
+ press 4
+ press +, to get 9
+ 
+ press sqrt, to get 3 and so on.
+ */
 class ViewController: UIViewController {
     @IBOutlet weak var display: UILabel!
     
