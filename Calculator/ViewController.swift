@@ -30,25 +30,17 @@ class ViewController: UIViewController {
         }
         switch operation {
             /*
-        case "×": performOperation({ (op1: Double, op2: Double) -> Double in
+             the simplifies version is equal to what we have below
+             case "×": performOperation({ (op1: Double, op2: Double) -> Double in
                         return op1 * op2
                     })
- */
+             */
         case "×": performOperation { $0 * $1 }
-        print("xxxx")
-        case "÷":
-            print("divide case in switch")
-            performOperation { $1/$0 }
+        case "÷": performOperation { $1 / $0 }
         case "+": performOperation { $0 + $1 }
-            print("+++++")
         case "−": performOperation { $1 - $0 }
-            print("----")
-        case "": performOperation { sqrt($0) }
-            print("sqrt")
-        default:
-            print("hello")
-            break
-            
+        case "√": performOperation { sqrt($0) }
+        default: break
         }
     }
     
@@ -59,7 +51,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @nonobjc
+    @nonobjc // we require this or either make the functions private
     func performOperation(operation: Double -> Double) {
         if operandStack.count >= 1{
             displayValue = operation(operandStack.removeLast())
